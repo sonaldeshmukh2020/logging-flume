@@ -41,7 +41,7 @@ jobs:
         uses: actions/setup-java@v2.3.0
         with:
           distribution: temurin
-          java-version: 8
+          java-version: 21.0.2+13.0.LTS
           java-package: jdk
           architecture: s390x
           cache: maven
