@@ -43,7 +43,7 @@ jobs:
           distribution: temurin
           java-version: 8
           java-package: jdk
-          architecture: x64
+          architecture: s390x
           cache: maven
 
       - name: Inspect environment (Linux)
