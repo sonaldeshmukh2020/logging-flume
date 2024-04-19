@@ -19,7 +19,7 @@ on:
   workflow_dispatch: 
   push:
     branches:
-      - trunk
+      - sonal-main
       - build-dev
   pull_request:
 
